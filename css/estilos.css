@@ -1,0 +1,16 @@
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+}
+header h1{
+  color: white;
+  text-shadow: 2px 2px blacK;
+  display: inline;
+}
+header div{
+  float: right;
+  margin: 10px;
+}
+.I{
+  text-decoration: none;
+}
