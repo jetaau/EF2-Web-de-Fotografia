@@ -3,17 +3,19 @@ body{
   background-color: black;
   font-family: 'Dancing Script';
 }
-.contenido{
+.Contenido{
   max-width: 900px;
-  width: 0 auto;
+  margin: 0 auto;
 }
 .Cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
+  width: 0 auto;
 }
 .Cabecera h1{
   color: white;
   text-shadow: 2px 2px blacK;
+  margin-left: 2px;
 }
 .Enlaces{
 text-align: right;
@@ -21,12 +23,10 @@ text-align: right;
 a{
   color: white;
   font-size: 1.3em;
+  margin-right: 2px;
 }
-.I{
-  text-decoration: none;
-}
-.caja1{
-  width: 80%;
+.Contenido .caja1{
+  width: 90%;
   height: 400px;
   background-color: #82c3a6;
   margin: 10px auto;
@@ -38,7 +38,7 @@ a{
   filter: drop-shadow(2px 2px #02010a);
 }
 .cajas{
-  width: 81%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
@@ -46,7 +46,7 @@ a{
   width: 45%;
   height: 100%;
   background-color:  #d5c75f;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   margin: 0 auto;
   border: 1px solid black;
@@ -66,7 +66,7 @@ a{
   width: 45%;
   height: 100%;
   background-color:  #d5c75f;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   margin: 0 auto;
   border: 1px solid black;
@@ -86,11 +86,9 @@ a{
 }
 
 @media (max-width:1000px){
-  body{
-    background-color: red;
-  }
   .Cabecera{
     text-align: center;
+    width: 100%;
   }
   .Enlaces{
     text-align: center;
@@ -98,4 +96,140 @@ a{
   .contenedor{
     width: 100%;
   }
+  .Contenido .caja1{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .Contenido{
+    width: 100%;
+    text-align: center;
+  }
+  .Contenido .caja2{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Contenido .caja3{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .tabla #columna1{
+    width: 90%;
+  }
+  .tabla #columna2{
+    width: 90%;
+  }
+  .tabla #columna3{
+    width: 90%;
+  }
+  .tabla #columna4{
+    width: 90%;
+  }
+
+  .paisajes #c1{
+    width: 90%;
+    margin-top: 10px;
+  }
+  .paisajes #c2{
+    width: 90%;
+  }
+  .paisajes #c3{
+    width: 90%;
+  }
+
+  .retratos #cc1{
+    width: 90%;
+    margin-top: 10px;
+  }
+  .retratos #cc2{
+    width: 90%;
+  }
+  .retratos #cc3{
+    width: 90%;
+  }
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+#columna1{
+  margin-left: 20px;
+}
+#columna2{
+  vertical-align: top;
+}
+#columna3{
+}
+#columna4{
+  vertical-align: top;
+}
+#columna1, #columna2, #columna3, #columna4{
+  display: inline-block;
+  width: 24%;
+}
+
+
+
+
+#c1, #c2, #c3{
+  display: inline-block;
+  width: 30%;
+  padding: 13.50px;
+  background-color: #d5c75f;
+}
+#c1 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+#c2 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+#c3 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+.paisaje1{
+  filter: blur(10px);
+
+}
+.paisaje2,.paisaje4,.paisaje6{
+  filter: grayscale(100%);
+}
+.paisaje3{
+  filter: sepia(90%);
+}
+
+
+
+
+#cc1, #cc2, #cc3{
+  display: inline-block;
+  width: 30%;
+  padding: 13.50px;
+  background-color: #d5c75f;
+}
+#cc1 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+#cc2 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+#cc3 img{
+  width: 100%;
+  margin: 7px 0px;
+}
+.retrato1{
+  filter: blur(10px);
+
+}
+.retrato2,.retrato4,.retrato6{
+  filter: grayscale(100%);
+}
+.retrato3{
+  filter: sepia(90%);
 }
